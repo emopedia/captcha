@@ -2,7 +2,7 @@ var captcha = document.getElementById("fake-captcha");
 
 var passOrFail = function() {
   var pass = Math.round(Math.random());
-  return pass ? "pass" : "fail";
+  return pass ? "fail";
 }
 
 captcha.onclick = function() {
