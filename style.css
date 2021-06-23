@@ -29,8 +29,10 @@
 }
 
 #fake-checkbox:hover {
-  border-color: #aaa;
-  background: #eee;
+		cursor: pointer;
+		border-color: #aaa;
+    background: #eee;
+		transition: 0.25s ease background-color;
 }
 
 #fake-captcha.loading {
