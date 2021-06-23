@@ -15,5 +15,5 @@ captcha.onclick = function() {
   setTimeout(function() {
     captcha.className = captcha.className.replace("loading", "");
     captcha.className += passOrFail();
-  }, Math.floor((Math.random() * 3000) + 1000));
+  }, Math.floor((Math.random() * 30000) + 1000));
 }
